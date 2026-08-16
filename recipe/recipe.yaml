@@ -1,5 +1,5 @@
 context:
-  version: "1.6.0"
+  version: "1.8.0"
 
 package:
   name: openai-cli
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openai/openai-cli/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: b8041612d0d09b84b112bd4cf5e1c01334c8a07c46631989b93c069e325c5e21
+  sha256: b3da5edb2fa592baab1743cfcae21b92e30ac29763945cb662839c5b0846469d
 
 build:
   number: 0
